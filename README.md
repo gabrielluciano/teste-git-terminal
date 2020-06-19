@@ -6,6 +6,7 @@ Lista de comandos importantes:
 
 - git init: inicia um repositório dentro do caminho especificado
 - git add file: adiciona um arquivo para ser monitorado (tracked)
+- git add . : para adicionar todos as alterações de uma vez
 - git commit -m "mensagem": cria um commit (um ponto na linha do tempo)
 - git status: mostra o status atual, se há arquivos modificados ou untracked (não monitorado)
 - git log: mostra um log com todos os commits realizados
@@ -23,4 +24,7 @@ Lista de comandos importantes:
 
     Repositórios remotos:
 
--
+- git remote add origin "link": para adicionar um repositório remoto
+- git remote -v: para ver os repositórios remotos
+- git push -u origin master: para fazer o primeiro push
+- git push: para fazer outros pushs (mandar os arquivos do repositório local para o repositório remoto)
